@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dmitry/Documents/Projects/cs_test/cs_test/cs_test.csproj": {}
+    "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj": {}
   },
   "projects": {
-    "/Users/dmitry/Documents/Projects/cs_test/cs_test/cs_test.csproj": {
+    "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dmitry/Documents/Projects/cs_test/cs_test/cs_test.csproj",
+        "projectUniqueName": "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj",
         "projectName": "cs_test",
-        "projectPath": "/Users/dmitry/Documents/Projects/cs_test/cs_test/cs_test.csproj",
+        "projectPath": "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj",
         "packagesPath": "/Users/dmitry/.nuget/packages/",
-        "outputPath": "/Users/dmitry/Documents/Projects/cs_test/cs_test/obj/",
+        "outputPath": "/Users/dmitry/Documents/Projects/cs_app/cs_test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dmitry/.config/NuGet/NuGet.Config"
