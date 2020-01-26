@@ -198,6 +198,83 @@ namespace cs_test
                 Console.WriteLine(a);
             }
 
+            static void IncrementDecrementDemo()
+            {
+                int x = 1;
+                x = x + 1;
+                Console.WriteLine(x);
+
+                x++;
+                Console.WriteLine(x);
+
+                ++x;
+                Console.WriteLine(x);
+
+                x = x - 1;
+                x--;
+                --x;
+
+                Console.WriteLine(x);
+
+                Console.WriteLine("Learn about increments");
+                Console.WriteLine($"Last x state is {x}");
+
+                int j = x++;
+                Console.WriteLine(j);
+                Console.WriteLine(x);
+
+                j = ++x;
+                Console.WriteLine(j);
+                Console.WriteLine(x);
+
+                x += 2;
+                // x = x + 2
+                Console.WriteLine(x);
+
+                j -= 2;
+                //j = j - 2
+                Console.WriteLine(j);
+            }
+
+            static void Overflow()
+            {
+                checked
+                {
+                    uint x = uint.MaxValue;
+
+                    Console.WriteLine(x);
+
+                    x = x + 1;
+
+                    Console.WriteLine(x);
+
+                    x = x - 1;
+
+                    Console.WriteLine(x);
+                }
+            }
+
+            static void VariablesScope()
+            {
+                var a = 1;
+                {
+                    var b = 2;
+                    {
+                        var c = 3;
+                        Console.WriteLine(a);
+                        Console.WriteLine(b);
+                        Console.WriteLine(c);
+                    }
+                    Console.WriteLine(a);
+                    Console.WriteLine(b);
+                    //Console.WriteLine(c);
+                }
+                Console.WriteLine(a);
+                //Console.WriteLine(b);
+                //Console.WriteLine(c);
+            }
+
+
             //StringEmptiness();
             //StringModification();
         }
