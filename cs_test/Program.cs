@@ -274,9 +274,23 @@ namespace cs_test
                 //Console.WriteLine(c);
             }
 
+            static void Overflow()
+            {
+                checked
+                {
+                    uint x = uint.MaxValue;
 
-            //StringEmptiness();
-            //StringModification();
+                    Console.WriteLine(x);
+
+                    x = x + 1;
+
+                    Console.WriteLine(x);
+
+                    x = x - 1;
+
+                    Console.WriteLine(x);
+                }
+            }
         }
     }
 }
