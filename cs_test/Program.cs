@@ -368,6 +368,108 @@ namespace cs_test
                 Console.WriteLine(a);
                 Console.WriteLine(name);
             }
+            static void DateTimeIntro()
+            {
+                DateTime now = DateTime.Now;
+                Console.WriteLine(now.ToString());
+
+                Console.WriteLine($"It's {now.Date}, {now.Hour}:{now.Minute}");
+
+                DateTime dt = new DateTime(2016, 2, 28);
+                DateTime newDt = dt.AddDays(1);
+
+                Console.WriteLine(newDt);
+
+                TimeSpan ts = now - dt;
+                //ts = now.Subtract(dt);
+                Console.WriteLine(ts.Days);
+            }
+
+            static void IntroToArrays()
+            {
+                int[] a1;
+                a1 = new int[10];
+
+                int[] a2 = new int[5];
+
+                int[] a3 = new int[5] { 1, 3, -2, 5, 10 };
+
+                int[] a4 = { 1, 3, 2, 4, 5 };
+
+                Console.WriteLine(a4[0]);
+
+                int number = a4[4];
+                Console.WriteLine(number);
+
+                a4[4] = 6;
+                Console.WriteLine(a4[4]);
+
+                Console.WriteLine(a4.Length);
+                Console.WriteLine(a4[a4.Length - 1]);
+
+                string s1 = "abcdefgh";
+                char first = s1[0];
+                char last = s1[s1.Length - 1];
+
+                Console.WriteLine($"First:{first}. Last:{last}");
+
+                //impossible
+                //s1[0] = 'z';
+            }
+
+
+
+            static void Comments()
+            {
+                //a single-line comment
+
+                /*
+                 * Multi-line comment
+                 * We can write here many words
+                 */
+
+                //describe hows and whys! not whats!
+
+                int a = 1;
+
+                //increment a by 1 - bad comment, this code is self-evident
+
+                //we need to tweak the index to match the expected outcome
+                a++;
+            }
+
+            static void CastingAndParsing()
+            {
+                byte b = 3; // 0000 0011
+                int i = b; // 0000 0000 0000 0000 0000 0000 0000 0011
+                long l = i; // 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011
+
+                float f = i; //3.0
+
+                //Console.WriteLine(f);
+
+                b = (byte)i;
+                //Console.WriteLine(b);
+
+                i = (int)f;
+                //Console.WriteLine(i);
+
+                f = 3.1f;
+                i = (int)f;
+                //Console.WriteLine(i);
+
+                string str = "1";
+                //i = (int)str;
+                i = int.Parse(str);
+                //Console.WriteLine($"Parsed i={i}");
+
+                int x = 5;
+                int result = x / 2;
+                Console.WriteLine(result);
+
+                double result2 = (double)x / 2;
+                Console.WriteLine(result2);
+            }
         }
     }
 }
