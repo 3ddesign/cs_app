@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj": {}
+    "/Users/dmitry_scherbakov/Documents/Projects/cs_app/cs_test/cs_test.csproj": {}
   },
   "projects": {
-    "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj": {
+    "/Users/dmitry_scherbakov/Documents/Projects/cs_app/cs_test/cs_test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj",
+        "projectUniqueName": "/Users/dmitry_scherbakov/Documents/Projects/cs_app/cs_test/cs_test.csproj",
         "projectName": "cs_test",
-        "projectPath": "/Users/dmitry/Documents/Projects/cs_app/cs_test/cs_test.csproj",
-        "packagesPath": "/Users/dmitry/.nuget/packages/",
-        "outputPath": "/Users/dmitry/Documents/Projects/cs_app/cs_test/obj/",
+        "projectPath": "/Users/dmitry_scherbakov/Documents/Projects/cs_app/cs_test/cs_test.csproj",
+        "packagesPath": "/Users/dmitry_scherbakov/.nuget/packages/",
+        "outputPath": "/Users/dmitry_scherbakov/Documents/Projects/cs_app/cs_test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dmitry/.config/NuGet/NuGet.Config"
+          "/Users/dmitry_scherbakov/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }
